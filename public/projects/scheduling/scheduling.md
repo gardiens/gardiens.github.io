@@ -1,11 +1,11 @@
 ---
-date: 07-03-2024
+date: 08-03-2022
 title : Scheduling Problem
 tags: ["Optimization", "Mixed Integer Linear Programming", "Tabu Search", "Genetic Algorithm"]
 stags: ["Optimization", "MILP", "Tabu Search", "GA"]
-links: ["https://github.com/Kreyparion/Projet_Ordonnancement"]
+links: ["https://github.com/julien-rsbrg/Optimization_Decision_Brain"]
 linksDescription: ["Github"]
-image: "OneMachineSchedule.png"
+image: "schedule.png"
 ---
 
 ## Abstract

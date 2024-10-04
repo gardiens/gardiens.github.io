@@ -1,8 +1,8 @@
 ---
-period: 2018-2020
+period: 2019-2021
 title: Higher school preparatory classes (CPGE)
 type: education
-company: Lycée Aux Lazaristes (Lyon, France), MPSI/MP*
+company: Lycée Blaise Pascal (Orsay, France), MPSI/MP*
 tags: [Mathematics, Physics, Computer Science]
 ---
 

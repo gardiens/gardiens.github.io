@@ -1,17 +1,17 @@
 import React from 'react';
-import TreeComponent from '../components/TreeComponent';
 import { Container } from 'react-bootstrap';
-import styles from './index.module.css';
 import ClickableCV from '../components/ClickableCV';
 import Timeline from '../components/Timeline';
+import TreeComponent from '../components/TreeComponent';
+import styles from './index.module.css';
 
-import getSortedCareerData from '../lib/career';
 import PropTypes from 'prop-types';
+import getSortedCareerData from '../lib/career';
 
 
 export const metadata = {
-    title: "Juien Cardinal",
-    description: 'Julien Cardinal is an AI Research Scientist specialising in RL and Optimisation Problems.',
+    title: "Pierrick Bournez",
+    description: 'Pierrick Bournez is an AI student  specialising in geometry and Deep Learning .',
 };
 
 

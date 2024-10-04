@@ -1,8 +1,8 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Divider from './Divider';
 
 export default function Footer(props) {
@@ -53,7 +53,7 @@ export default function Footer(props) {
                 Mail :
               </h3>
               <p>
-                <a href="mailto:kreyparion@gmail.com">kreyparion@gmail.com</a>
+                <a href="mailto:pierrick.bournez@student-cs.fr">pierrick.bournez@student-cs.fr</a>
               </p>
             </div>
           </Col>
@@ -73,7 +73,7 @@ export default function Footer(props) {
                 display: 'inline-block',
               }}
             >
-              <a
+              {/* <a
                 target='_blank'
                 rel='noreferrer'
                 href='https://www.france-ioi.org/user/perso.php?sLogin=juliencardinal'
@@ -83,7 +83,7 @@ export default function Footer(props) {
                   src='/images/fioi3.png'
                   alt='france ioi logo'
                 />
-              </a>
+              </a> */}
             </div>
 
             <div
@@ -94,7 +94,7 @@ export default function Footer(props) {
                 display: 'inline-block',
               }}
             >
-              <a
+              {/* <a
                 target='_blank'
                 rel='noreferrer'
                 href='https://www.kaggle.com/juliencardinal'
@@ -104,7 +104,7 @@ export default function Footer(props) {
                   src='/images/kaggle3.png'
                   alt='kaggle logo'
                 />
-              </a>
+              </a> */}
             </div>
 
             <div
@@ -118,7 +118,7 @@ export default function Footer(props) {
               <a
                 target='_blank'
                 rel='noreferrer'
-                href='https://linkedin.com/in/julcardinal'
+                href='https://www.linkedin.com/in/pierrick-bournez/'
               >
                 <img
                   style={{ maxWidth: '100%' }}
@@ -139,7 +139,7 @@ export default function Footer(props) {
               <a
                 target='_blank'
                 rel='noreferrer'
-                href='https://github.com/Kreyparion'
+                href='https://github.com/gardiens'
               >
                 <img
                   style={{ maxWidth: '100%' }}

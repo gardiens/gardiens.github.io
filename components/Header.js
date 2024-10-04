@@ -1,10 +1,10 @@
-import React from 'react';
-import { Router } from "react-router-dom"
 import PropTypes from 'prop-types';
-import { Nav, Navbar, Container } from 'react-bootstrap';
+import React from 'react';
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Router } from "react-router-dom";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import classNames from 'classnames';
 import styles from './Header.module.css';
@@ -49,7 +49,7 @@ export default function Header() {
           <img src='/assets/android-chrome-512x512.png' alt='logo' className={styles.logo} />
         </Navbar.Brand>
         <Navbar.Text className={styles.text} href='/' as={Nav.Link}>
-          Julien Cardinal
+          Pierrick De Bournez
         </Navbar.Text>
 
         <Navbar.Toggle aria-controls='basic-navbar-nav'>
