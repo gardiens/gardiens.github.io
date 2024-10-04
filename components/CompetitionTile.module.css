@@ -1,0 +1,91 @@
+.link{
+    color: black;
+    text-decoration: none;
+}
+.tagButton{
+    background-color: #f05555;
+    color: white;
+    padding: 0px 7px;
+    border-color: #e02020;
+    border-width: 1px;
+    border-radius: 10px;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+.tagButton:hover{
+    background-color: #e02020;
+}
+
+.linkButton{
+    background-color: #303030;
+    color: white;
+    padding: 5px 10px;
+    border-color: #006699;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+.linkButton:hover{
+    background-color: #006699;
+}
+
+.tile{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.leftContainer{
+    padding-top: 5px;
+    padding-right: 25px;
+    width: fit-content;
+}
+.date{
+    margin-bottom: 15px;
+}
+
+.anchor{
+    margin-left: .3em;
+    color: #888;
+    width: 1em;
+    height: 1em;
+    cursor: pointer;
+}
+
+
+.rank{
+    font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .tile {
+    flex-direction: column;
+  }
+    
+}
+.imagecontainer{
+    margin: 15px;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.image{
+    max-width: 400px;
+    width: 100%;
+}
+
+.content{
+    flex: 1;
+}
+
+.title{
+    margin-bottom: 3px;
+}
+
+.tags{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,44 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.banner{
+    background-color: #eee;
+}
+.citation{
+    flex: 1;
+    text-align: center;
+    display: block;
+
+}
+.line1{
+    display: block;
+    color: green;
+    font-size: 2rem;
+    min-width: 350px;
+}
+.line2{
+    display: block;
+    color: green;
+    font-size: 2rem;
+}
+.author{
+    display: block;
+}
+
+.tree{
+    flex: 1;
+    min-width: 350px;
+}
+
+.ClickableCVContainer{
+    margin-bottom: 20px;
+}
+
+.TimelineContainer{
+    margin-top: 20px;
+}

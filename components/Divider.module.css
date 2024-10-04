@@ -1,0 +1,49 @@
+.divider {
+  display: inline-block;
+  background: #ccc;
+  height: 1px;
+  width: 200px;
+  content: '';
+  position: absolute;
+  left: calc(50% - 150px);
+}
+.divider1 {
+  display: inline-block;
+  background: #ccc;
+  height: 1px;
+  width: 200px;
+  content: '';
+  margin-top: 2px;
+  bottom: -4px;
+  position: absolute;
+  left: calc(50% - 50px);
+}
+.divider2 {
+  background: darkblue;
+  height: 2px;
+  width: 45px;
+  display: inline-block;
+  position: absolute;
+  bottom: -3px;
+  left: calc(50% - 22px);
+}
+
+.divider3{
+  background: green;
+  height: 2px;
+  width: 300px;
+  display: inline-block;
+  position: absolute;
+  bottom: -1px;
+  left: calc(50% - 150px);
+}
+
+.divider4{
+  background: green;
+  height: 2px;
+  width: 300px;
+  display: inline-block;
+  position: absolute;
+  bottom: -1px;
+  left: calc(50% - 100px);
+}

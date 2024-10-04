@@ -1,0 +1,17 @@
+.title{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.compagny{
+    margin-bottom: 5px;
+}
+
+.Badge{
+    margin: 1px;
+}
+
+.timelineElement .vertical-timeline-element-content {
+    border-top: 1px solid #000;
+}

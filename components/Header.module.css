@@ -1,0 +1,98 @@
+.bg {
+	background: linear-gradient(#333f50, #374354);
+	min-height: 50px;
+	line-height: 50px;
+	padding: 0.5rem 0;
+	text-align: center;
+}
+
+.logo {
+	height: 100%;
+	max-height: 50px;
+	width: auto; 
+	margin-left: .5rem;
+}
+
+.logo:hover {
+	cursor: pointer;
+}
+.text{
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+.text:hover {
+	color: white;
+}
+
+
+.link:hover {
+	color: chocolate;
+}
+
+.link:focus {
+	text-decoration: underline;
+	outline: none;
+}
+
+.link{
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+.isActive {
+	font-weight: 700;
+}
+
+.Container {
+	display: flex;
+	flex-direction: row;
+}
+
+.dropdown {
+	color: white;
+	background: none;
+	border: none;
+	padding-right: 0;
+}
+
+.dropdown:hover {
+	background: none;
+	border: none;
+	color: #ffaf53;
+	/* color: #ffaf53; */
+}
+
+.dropdown:active {
+	background: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.dropdown:focus {
+	background: none !important;
+	outline: none !important;
+	box-shadow: none;
+	text-decoration: underline;
+}
+
+.dropdown_toggle {
+	background: none;
+	border: none;
+	margin-left: .5em !important;
+	padding:  0 .2em !important;
+}
+
+.dropdown_toggle:hover {
+	background: none;
+	color: #ffaf53;
+}
+
+.dropdown_toggle:active, .dropdown_toggle:focus {
+	background: none !important;
+	border: 1px white dashed !important;
+	box-shadow: none !important;
+}
+
+.dropdown_toggle[aria-expanded="true"] {
+	background: none !important;
+	transform: rotate(180deg);	
+}

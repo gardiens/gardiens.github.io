@@ -1,0 +1,45 @@
+.CV{
+    border: solid 1px lightgray;   
+    border-radius: 2px; 
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.CV:hover{
+    transform: scale(1.1);
+}
+
+.CVContainer{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.CVlink{
+    width: fit-content;
+    padding-left: 10px;
+}
+
+.Presentation{
+    flex:1;
+    padding-right: 10px;
+    min-width: 250px;
+    max-width: 950px;
+}
+
+.MyName{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #005cc5;
+}
+
+.lines{
+    padding-left: 20px;
+}
+
+.line{
+    display: block;
+    margin: 5px 0px;
+}
