@@ -2,7 +2,7 @@
 period: 2022
 title: ML intern in public University
 type: work
-company: LLaboratoire Interdisciplinaire Des Sciences Du Numérique (LISN)
+company: Laboratoire Interdisciplinaire Des Sciences Du Numérique (LISN)
 tags: [Pytorch, Pandas, FEDFormer]
 ---
 
