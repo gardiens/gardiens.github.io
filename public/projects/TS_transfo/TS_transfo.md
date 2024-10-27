@@ -12,5 +12,5 @@ image: "gif.gif"
 
 A project to solve to apply Time Series Transformers to prediction of human Skeleton. 
 In particular, we focus on promising architecture such as FEDFormer and AutoFormer.
-We submitted to JDSE 2023 and the paper can be found [here](invest_transfo.pdf)
+We submitted to JDSE 2023 and the paper can be found [here](https://github.com/gardiens/Time-Series-Library_skeleton/blob/master/9_Investigating_Transformers_f.pdf)
 
