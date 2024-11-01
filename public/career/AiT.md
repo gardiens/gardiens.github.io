@@ -9,4 +9,8 @@ tags: [LiDAR Point Clouds, Transformers, Robotics]
 ## Abstract
 
  Acquisition and simulation of drone trajectory and Semantic segmentation of LiDAR Point Clouds in challenging environments, supervised by Jules salzinger, research engineer at Ait.
-Papier accepted for Low Cost 3D Workshop 2024. Paper incoming
+
+Papier accepted for Low Cost 3D Workshop 2024. 
+
+
+Stay tune the paper ! 

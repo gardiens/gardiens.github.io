@@ -11,4 +11,4 @@ tags: [Pytorch, Pandas, FEDFormer]
 
 
 Motion prediction of human skeletons using Transformers
-[Paper](/pdf/CV.pdf) accepted at JDSE 2023
+Paper accepted at a the junior conference JDSE 2023
