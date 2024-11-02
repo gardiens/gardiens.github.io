@@ -171,7 +171,7 @@ export default function Footer(props) {
                 Mail :
               </h3>
               <p>
-                <a href="mailto:kreyparion@gmail.com">kreyparion@gmail.com</a>
+                <a href="mailto:pierrick.bournez@student-cs.fr">pierrick.bournez@student-cs.fr</a>
               </p>
             </div>
           </Row>
@@ -257,7 +257,7 @@ export default function Footer(props) {
               <a
                 target='_blank'
                 rel='noreferrer'
-                href='https://github.com/Kreyparion'
+                href='https://github.com/gardiens'
               >
                 <img
                   style={{ maxWidth: '100%' }}
@@ -281,8 +281,8 @@ export default function Footer(props) {
         <Container>
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             <span >
-              © 2023-2024 - Property of Julien Cardinal</span>
-            <a href='https://github.com/Kreyparion/kreyparion.com' style={{textDecoration: "none"}}>
+              © 2023-2024 - Property of Pierrick Bournez,</span>
+            <a href='https://github.com/gardiens/gardiens.github.io' style={{textDecoration: "none"}}>
               Website Source Code
             </a>
           </div>
