@@ -281,7 +281,7 @@ export default function Footer(props) {
         <Container>
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             <span >
-              © 2023-2024 - Property of Pierrick Bournez,Thanks Julien Cardinal for the help</span>
+              © 2023-2024 - Property of Pierrick Bournez</span>
             <a href='https://github.com/gardiens/gardiens.github.io' style={{textDecoration: "none"}}>
               Website Source Code
             </a>
