@@ -2,7 +2,7 @@
 date: 09-09-2024
 title : Semantic Segmentation on UAV 
 tags: ["Semantic Segmentation,3D,Lidar Point clouds"]
-stags: ["RL", "DQN", "Reinforce", "Metaheuristics", "MCTS", "B&B"]
+stags: ["Semantic Segmentation","3D","Lidar Point Clouds"]
 links: ["https://github.com/gardiens/superpoint_transformer_OS"]
 linksDescription: ["Github repo"]
 image: "prediction-bags.png"

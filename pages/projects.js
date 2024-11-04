@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import ProjectTile from '../components/ProjectTile';
 
 export const metadata = {
-  title: "Juien Cardinal's Projects",
+  title: "Pierrick bournez Projects",
   description: 'Every project I worked on.',
 };
 
