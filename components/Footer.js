@@ -53,7 +53,7 @@ export default function Footer(props) {
                 Mail :
               </h3>
               <p>
-                <a href="mailto:pierrick.bournez@student-cs.fr">pierrick.bournez@student-cs.fr</a>
+                <a href="mailto:pierrick[DOT]bournez@student-cs[DOT]fr">pierrick[DOT]bournez@student-cs[DOT]fr</a>
               </p>
             </div>
           </Col>
