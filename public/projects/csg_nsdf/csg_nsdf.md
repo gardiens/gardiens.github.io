@@ -34,6 +34,19 @@ To address these limitations, the paper introduces a novel loss function designe
 
 ### Highlights of the Loss Function
 
+The new loss function is defined as:
+
+\[
+\theta^* = \arg \min_{\theta} \mathcal{L}(\theta) + \lambda_c E_{\text{CP}}(\theta, X) + \lambda_e E_{\text{eik}}(\theta, X),
+\]
+
+where:
+
+- \( \mathcal{L}(\theta) \): A loss term that measures how far the model is from the initial approximation.
+- \( E_{\text{CP}}(\theta, X) \): A **conservative loss** that enforces the implicit function to adhere to Signed Distance Function (SDF) properties.
+- \( E_{\text{eik}}(\theta, X) \): The **eikonal loss**, which enforces the implicit function to satisfy the eikonal equation, ensuring smoothness and geometric consistency.
+- \( \lambda_c \) and \( \lambda_e \): Regularization coefficients that balance the contributions of the respective loss terms.
+
 1. **Construction**: The proposed loss function combines regularization with constraints tailored to maintain SDF properties. 
 2. **Application**: It is versatile and can be seamlessly integrated into existing frameworks.
 3. **Efficiency**: While initial implementations required significant computational effort (e.g., 4 hours for regularization of a simple shape), optimizations through targeted reimplementations demonstrate considerable speed-ups.
