@@ -4,8 +4,8 @@ title : 3D Gaussian Splatting explained
 tags: ["3D Reconstruction,3D Deep Learning"]
 stags: ["3D deep Learning"]
 links: [
-    "https://kreyparion.com-main/public/projects/3DGS/3DGS_explained.pdf",
-    "https://kreyparion.com-main/public/projects/3DGS/presentation_final.pptx"
+    "https://gardiens.vercel.app/public/projects/3DGS/3DGS_explained.pdf",
+    "https://gardiens.vercel.app/public/projects/3DGS/presentation_final.pdf"
 ]
 linksDescription: ["Paper","presentation" ]
 image: "3DGS.gif"
