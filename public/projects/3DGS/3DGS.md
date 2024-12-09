@@ -1,12 +1,26 @@
 ---
 date: 09-12-2024
-title : "3D Gaussian Splatting explained"  
+title : 3D Gaussian Splatting explained 
+tags: ["3D Reconstruction,3D Deep Learning"]
+stags: ["3D deep Learning"]
+links: [
+    "https://kreyparion.com-main/public/projects/3DGS/3DGS_explained.pdf",
+    "https://kreyparion.com-main/public/projects/3DGS/presentation_final.pptx"
+]
+linksDescription: ["Paper","presentation" ]
+image: "3DGS.gif"
+---
+
+<!-- ---
+date: 09-12-2024
+title : 3D Gaussian Splatting explained  
 tags: ["3D Reconstruction,3D Deep Learning"]
 stags: ["3D deep Learning"]
 links: ["kreyparion.com-main\public\projects\3DGS\3DGS_explained.pdf","kreyparion.com-main\public\projects\3DGS\presentation_final.pptx"]
 linksDescription: ["Paper","presentation" ]
 image: "3DGS.gif"
----
+--- -->
+
 
 ## Abstract
 
@@ -16,10 +30,10 @@ In this work, we review existing methods for rendering 3D scenes from multiple v
 
 ## Contribution
 - **Under-represented viewpoints**: Missing viewpoints in the scene result in holes in the 3D reconstruction (see Section~\ref{section:limitation-black}). We addressed this by using generative image techniques to fill in these gaps (see Section~\ref{section:extension-black-patches}).
-- **Rendering boundaries and discontinuities**: 3D Gaussian Splatting struggles to accurately render sharp boundaries and discontinuities (see Section~\ref{sec:render-boundaries-discon}).
-- **View artifacts and chromatic aberrations**: Artifacts and aberrations appear under certain angles (see Section~\ref{sec:view-artifacts}). To mitigate this, we experimented with adding noise and adjusting the degree of spherical harmonics (see Section~\ref{sec:colors-expe}).
-- **Depth regularization**: We introduced depth information to the input images to regularize the training process and improve results (see Section~\ref{sec:depth-regu}).
-- **SfM solver comparison**: We compared more extensively than the original paper the performance of two SfM solvers, GLOMAP and COLMAP, to evaluate their impact on Gaussian Splatting (see Section~\ref{sec:sfm-solver}).
+- **Rendering boundaries and discontinuities**: 3D Gaussian Splatting struggles to accurately render sharp boundaries and discontinuities.
+- **View artifacts and chromatic aberrations**: Artifacts and aberrations appear under certain angles (see Section~\ref{sec:view-artifacts}). To mitigate this, we experimented with adding noise and adjusting the degree of spherical harmonics .
+- **Depth regularization**: We introduced depth information to the input images to regularize the training process and improve results .
+- **SfM solver comparison**: We compared more extensively than the original paper the performance of two SfM solvers, GLOMAP and COLMAP, to evaluate their impact on Gaussian Splatting .
 
 ## Related Works
 Prior to the emergence of Gaussian splatting, two primary approaches dominated the synthesis of novel views from input images: Neural Rendering and Radiance Fields (e.g., NeRF), and Point-based Rendering.
@@ -65,11 +79,11 @@ Mathematically, we store the spherical harmonics up to a maximum degree
 $l_{max}$. If we denote the view direction of point $i$ in image $j$ as
 $v_{i}^{j}$ Then the color of the point is
 given by :
-$$c_{i}^{j} = \sum_{l=0}^{l_{max}} \sum_{m=-l}^{l} c_{m}^{l}*\times Y^{m}_{l}(v_{i}^{j})
+<!-- $$c_{i}^{j} = \sum_{l=0}^{l_{max}} \sum_{m=-l}^{l} c_{m}^{l}*\times Y^{m}_{l}(v_{i}^{j})
     \label{SH_eq}$$ $c_{m}^{l}$ is a learnable parameter per gaussian
-with $Y^{m}_{l}(v_{i}^{j})$, the corresponding spherical harmonics.\
+with $Y^{m}_{l}(v_{i}^{j})$, the corresponding spherical harmonics.\ -->
 
-### Rendering {#rendering}
+### Rendering
 
 To determine which pixels a Gaussian in 3D space will impact, we compute
 its projection onto the 2D image plane. For a Gaussian and an image $j$,
@@ -84,12 +98,12 @@ interact in the pixel space. To address this, the authors included an
 $\alpha$ parameter, which determines the contribution of each Gaussian
 to the final color of the pixel.
 
-The final color of a pixel $i$ in an image $j$ is given by:
-$$c_{i}^{j}= \sum_{i=1}^{N} c_{i} \alpha_i \prod_{j=1}^{i-1}(1-\alpha_j), %THIS IS FALSE SEE https://github.com/hbb1/torch-splatting/blob/main/gaussian_splatting/gauss_render.py$$
+<!-- The final color of a pixel $i$ in an image $j$ is given by:
+<!-- $$c_{i}^{j}= \sum_{i=1}^{N} c_{i} \alpha_i \prod_{j=1}^{i-1}(1-\alpha_j), %THIS IS FALSE SEE https://github.com/hbb1/torch-splatting/blob/main/gaussian_splatting/gauss_render.py$$
 
 where $\alpha_i$ represents the opacity weights, and $N$ is the number
 of Gaussians whose rectangles intersect the pixel in the image space,
-sorted depth-wise.
+sorted depth-wise. -->
 
 ### Rasterization and backpropagation
 
@@ -175,24 +189,21 @@ First try of filling gaps in images with Stable Diffusion with the
 prompt:\" fill in the missing gap sections\". The input image is
 figure, the bike is not present
 anymore.
-![Result with a more fine-tuned prompt: \"Fill in the black sky\". The
-bike is back again
-](img//limitation_images/filled_in_sky.png){#fig:sky-filled width="90%"}
 
 
 Result with a more fine-tuned prompt: \"Fill in the black sky\". The
 bike is back again.
 <figure id="fig:test">
-    <img src="images/base_bicycle.png">
-    <figcaption> Input Images, a black hole  can be seen </figcaption>
-  <img src="images/missing_bicycle_box.PNG">
-  <figcaption> Input naive prompt: " fill in the black patches" </figcaption>
-  <img src="images/filled_in_sky.png">
-  <figcaption> More complex prompt:" fill in the missing sky" </figcaption>
-<figcaption>Results of our experiments.</figcaption>
+    <img src="images/base_bicycle.png" style="width: 300px; display: block; margin: 0 auto;">
+    <figcaption  style="text-align: center;"> Input Images, a black hole  can be seen </figcaption>
+  <img src="images/missing_bicycle_box.PNG" style="width: 300px; display: block; margin: 0 auto;">
+  <figcaption  style="text-align: center;"> Input naive prompt: " fill in the black patches" </figcaption>
+  <img src="images/filled_in_sky.png" style="width: 300px; display: block; margin: 0 auto;">
+  <figcaption  style="text-align: center;"> More complex prompt:" fill in the missing sky" </figcaption>
+<figcaption  style="text-align: center;">Results of our experiments.</figcaption>
 </figure>
 
-## Color and Boundary Repair Experiments {#sec:colors-expe}
+## Color and Boundary Repair Experiments 
 
 ### Adjusting Spherical Harmonics Parameter
 
@@ -207,13 +218,13 @@ We hypothesize that the large number of Gaussians in the scene
 information.
 
 <figure id="fig:">
-  <img src="images/bonsai_sh.PNG" alt="Scene rendered changing the number of spherical harmonics">
+  <img src="images/bonsai_sh.PNG" alt="Scene rendered changing the number of spherical harmonics" style="width: 300px; display: block; margin: 0 auto;">
 
-<figcaption>Scene rendered changing the number of spherical harmonics.
+<figcaption  style="text-align: center;">Scene rendered changing the number of spherical harmonics.
 No major changes can be seen. </figcaption>
 </figure>
 
-### Effects of adding noise on images before training {#section:noise_adding}
+### Effects of adding noise on images before training 
 
 In this section, we explored the impact of introducing noise to the
 input images. Specifically, we added salt-and-pepper noise
@@ -240,13 +251,13 @@ improving the algorithm's ability to learn sharp geometries at a
 relatively low computational cost.
 
 <figure id="fig:additional_fig">
-    <img src="images/bonsai_pepper_clean_box2.PNG">
-    <figcaption> Input Images without any noise </figcaption>
-  <img src="images/bonsai_pepper_005_box2.PNG">
-  <figcaption> Bonsai with a noise of 0.05</figcaption>
-  <img src="images/bonsai_pepper_02_box2.PNG">
-  <figcaption> Bonsai with a noise of 0.2
-<figcaption>Scenes rendered with varying levels of salt-and-pepper
+    <img src="images/bonsai_pepper_clean_box2.PNG" style="width: 300px; display: block; margin: 0 auto;">
+    <figcaption  style="text-align: center;"> Input Images without any noise </figcaption>
+  <img src="images/bonsai_pepper_005_box2.PNG" style="width: 300px; display: block; margin: 0 auto;">
+  <figcaption  style="text-align: center;"> Bonsai with a noise of 0.05</figcaption>
+  <img src="images/bonsai_pepper_02_box2.PNG" style="width: 300px; display: block; margin: 0 auto;">
+  <figcaption  style="text-align: center;"> Bonsai with a noise of 0.2
+<figcaption  style="text-align: center;">Scenes rendered with varying levels of salt-and-pepper
 noise. As the noise probability <span
 class="math inline"><em>p</em></span> increases, the boundaries become
 smoother and more defined, enhancing clarity. However, excessive noise
