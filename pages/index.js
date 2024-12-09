@@ -24,7 +24,7 @@ const Home = ({ allCareerData }) => (
                     <div className={styles.citation}>
                         <span className={styles.line1}>Hi</span>
                         <span className={styles.line2}>I am  Pierrick.</span>
-                        <span className={styles.author}>I like 3D models :O </span>
+                        <span className={styles.author}>I like 3D models </span>
                     </div>
                     <div className={styles.tree}>
                         <Frog />

@@ -1,5 +1,5 @@
 ---
-date: 09-09-2024
+date: 09-11-2024
 title : Constructive Solid Geometry on Neural Signed Distance Fields 
 tags: ["3D Deep Learning"]
 stags: ["3D deep Learning"]

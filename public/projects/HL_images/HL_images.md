@@ -1,5 +1,5 @@
 ---
-date: 4-10-2024
+date: 04-10-2024
 title : Lost in Layers, Navigating through Semantic Segmentation
 tags: ["Images,Deep Learning,Loss"]
 stags: ["Optimization", "Images", "Cifar", "GA"]
