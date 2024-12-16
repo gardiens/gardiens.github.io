@@ -9,7 +9,7 @@ image: "prediction-bags.png"
 ---
 
 ## Abstract
-
+We published a [paper about it](https://isprs-archives.copernicus.org/articles/XLVIII-2-W8-2024/45/2024/)
 With the rapid development of 3D sensing technologies, 3D point cloud semantic segmentation has seen a rise in adoption from many fields. Indeed, while RGB cameras remain a popular choice under good visibility conditions, such sensors are inefficient in indoor environments where visibility can be hindered, for example by dust or fog. The more robust LiDAR sensors therefore play a growing role in 3D building reconstruction, high-level task planning, and robot navigation. Traditionally, point clouds are generated using expensive, heavy, high-precision sensors, with practitioners focusing on constructing accurate reconstructions without any time constraint. 
 
 However, when autonomously exploring an indoor environment, mobile vehicles typically construct an internal map of the environment on the go. As they have limited fuel/energy, they need to understand their environment with lightweight sensors in real-time to make decisions. Moreover, in certain real-time applications, such as high-level task planning, quick scene understanding is a helpful feature to support decision-making.
