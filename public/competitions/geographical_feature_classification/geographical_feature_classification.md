@@ -6,7 +6,7 @@ tags: ["Machine Learning","Tabular Data", "Random Forest", "XGBoost", "Feature E
 links: ["https://www.kaggle.com/competitions/centralesupelec-2el1730-machine-learning/overview"]
 linksDescription: ["Kaggle Competition"]
 image: "geo-image.png"
-rank: "3/86"
+rank: "1/86"
 leaderboard: "https://www.kaggle.com/competitions/centralesupelec-2el1730-machine-learning/leaderboard?tab=public"
 ---
 

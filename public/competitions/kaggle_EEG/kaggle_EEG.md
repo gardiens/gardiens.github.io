@@ -5,8 +5,8 @@ stags: ["ML","Tabular","Random Forest","XGBoost", "Feature Engineering"]
 tags: ["Machine Learning","Tabular Data", "Random Forest", "XGBoost", "Feature Engineering"]
 links: ["https://github.com/gardiens/Beacon_project_2025_MLB"]
 linksDescription: ["Kaggle Competition"]
-image: "geo-image.png"
-rank: "3/86"
+image: "kaggle_EEG.png"
+rank: "4/100"
 leaderboard: "https://www.kaggle.com/competitions/eeg-signal-quality-analysis-by-beacon-biosignals/leaderboard"
 ---
 
