@@ -1,0 +1,6 @@
+-> Raconter son opinion de la recherche de stage de césure
+-> Refaire les explications de espace de forme
+-> Expliquer simplement encodeur décodeur
+-> Faire une explication de comment lire un REPO de DL/ de Python sur les grosses 
+-> Lire ou comprendre du C++ pour les nuls!  Et comment ça intéragit avec Python 
+->
