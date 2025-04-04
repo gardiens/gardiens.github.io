@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import copy from 'copy-to-clipboard';
 
-export default function BlogsTile({ id, date, title, abstract, content, tags, stags, image, links, linksDescription}) {
+export default function BlogTile({ id, date, title, abstract, content, tags, stags, image, links, linksDescription}) {
     const [hidden, setHidden] = useState(true);
     const [show, setShow] = useState(false);
     return (
@@ -101,7 +101,7 @@ export default function BlogsTile({ id, date, title, abstract, content, tags, st
 };
 
 
-BlogsTile.propTypes = {
+BlogTile.propTypes = {
     id: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
