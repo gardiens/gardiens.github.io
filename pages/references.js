@@ -14,9 +14,9 @@ const References = () => (
         <Container>
             <h1> Books</h1>
             <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', marginTop: '10px'}}>
-                <ReferenceTile title="Machine Learning: A Probabilistic Perspective" author="Kevin P. Murphy" description="My reference book for Statistics" img="references/ML_Murphy.jpg" link="https://probml.github.io/pml-book/book0.html" date=""/>
-                <ReferenceTile title="Convex Optimization" author="S. Boyd and L. Vandenberghe" description="The Convex Optimization Bible" img="references/convex_opti.jpg" link="https://web.stanford.edu/~boyd/cvxbook/" date=""/>
-                <ReferenceTile title="Graph Theory with Applications" author="J.A. Bondy and U.S.R. Murty" description="An old but really well made book on Graph Theory" img="references/GTWA.jpg" link="https://www.iro.umontreal.ca/~hahn/IFT3545/GTWA.pdf" date="1976"/>
+                <ReferenceTile title="Analyse Harmonique réelle" author="Michel Willem" description="My reference book for Analyse harmonique" img="references/Willem.png" link="None" date=""/>
+                <ReferenceTile title="convex analysis and monotone operator theory in hilbert spaces" author="HH Bauschke" description="The Convex Optimization Bible" img="references/Brauschke.png" link="None" date=""/>
+                <ReferenceTile title="Computational Geometry Algorithms and Applications" author="De Berg,Cheong,Van Kreveld" description="Really great book on algorithmic geometry" img="references/comput_geometry.png" link="https://cimec.org.ar/foswiki/pub/Main/Cimec/GeometriaComputacional/DeBerg_-_Computational_Geometry_-_Algorithms_and_Applications_2e.pdf" date=""/>
             </div>
             <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', marginTop: '10px' }}>
                 <ReferenceTile title="Probabilistic Machine Learning: Advanced Topics" author="Kevin P. Murphy" description="A Statistical Approach to Deep Learning" img="references/probabilistic_ML.jpg" link="https://probml.github.io/pml-book/book2.html" date=""/>

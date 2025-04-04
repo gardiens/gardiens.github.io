@@ -73,6 +73,9 @@ export default function Header() {
             <NavLink href='/references' eventKey='4'>
               References
             </NavLink>
+            <NavLink href='/blogs' eventKey='5'>
+              Blogs
+            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
