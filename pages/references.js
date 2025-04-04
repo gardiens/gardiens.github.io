@@ -19,7 +19,7 @@ const References = () => (
                 <ReferenceTile title="Computational Geometry Algorithms and Applications" author="De Berg,Cheong,Van Kreveld" description="Really great book on algorithmic geometry" img="references/comput_geometry.png" link="https://cimec.org.ar/foswiki/pub/Main/Cimec/GeometriaComputacional/DeBerg_-_Computational_Geometry_-_Algorithms_and_Applications_2e.pdf" date=""/>
             </div>
             <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', marginTop: '10px' }}>
-                <ReferenceTile title="Probabilistic Machine Learning: Advanced Topics" author="Kevin P. Murphy" description="A Statistical Approach to Deep Learning" img="references/probabilistic_ML.jpg" link="https://probml.github.io/pml-book/book2.html" date=""/>
+                <ReferenceTile title="Intégration, Probabilités et Processus aléatoires" author="François Le Gall" description="the Go-To for probabilistic theory" img="references/Le_Gall.png" link="https://www.imo.universite-paris-saclay.fr/~jean-francois.le-gall/IPPA2.pdf" date=""/>
                 <ReferenceTile title="Deep Learning" author="Ian Goodfellow, Yoshua Bengio and Aaron Courville" description="The Deep Learning Bible" img="references/deep_learning.jpg" link="https://www.deeplearningbook.org/" date="2016"/>
                 <ReferenceTile title="Reinforcement Learning: An Introduction" author="Richard S. Sutton and Andrew G. Barto" description="The RL Bible" img="references/sutton_barto.jpeg" link="https://inst.eecs.berkeley.edu/~cs188/sp20/assets/files/SuttonBartoIPRLBook2ndEd.pdf" date="2014"/>
             </div>
