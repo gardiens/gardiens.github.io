@@ -8,27 +8,34 @@ linksDescription: ["Github"]
 image: "image.png"
 ---
 
+
 ## Abstract
+
 Salut je vous présente ici mon ressenti et mes avis sur la 3ème année de CS accompagné du MVA. 
 
+
+
+# MVA x CS pour les Nuls V2
+
+## Disclaimer
+Je me suis fortement inspiré des idées de Timothé Boulet et je le remercie beaucoup pour ces conseils pleins de sagesses.
 ## Présentation CS MVA
 C'est une formule très prisée du combo SDI MVA, mais je ne suis pas sûr de la recommander si vous ne vous orientez pas vers la recherche. Beaucoup de cours sont axés sur la recherche ou appliqués à la recherche. Le forum et le réseau sont intéressants, avec de nombreuses offres de stages plus précises que celles de la ML de CS.
 
-
-# Rentrer dans le MVA
+## Rentrer dans le MVA
 
 
 Intégrer le MVA peut être à la fois difficile et simple. Personnellement, j'ai réussi à y entrer sans problème, et près de 20 autres personnes ont également été admises dans le cadre de la mention SDI. Cependant, la compétition peut être intense, car je connais quelqu'un qui n'a pas été accepté. Ma théorie est qu'ils sélectionnent les candidats qu'ils estiment capables de supporter les deux charges de travail sans trop de difficultés.
 
 
 
-# Valider CS 
+## Valider CS 
 
 Pour valider le CS, les étudiants en SDI doivent compléter 11 cours CS. Parmi ces 11 cours, 4 sont des cours obligatoires de SD9, communs avec le MMF, et 7 sont à choisir parmi les périodes d'électifs en SM10 et SM11.
 
 Pour les cours en SM, les étudiants ne peuvent suivre qu'un cours par créneau horaire. Ils peuvent choisir des cours proposés par le parcours SDI de Saclay ainsi que certains cours d'autres parcours.
 
-# Valider MVA 
+## Valider MVA 
 La validation du MVA peut être exigeante.
 
 Pour valider le MVA, il est nécessaire de compléter 6 cours MVA, et 2 cours seront comptabilisés dans le cadre du CS.
@@ -43,20 +50,21 @@ Dernière règle : au moins 2 cours du MVA doivent être classés sous le label 
 
 Il faut faire attention car la note des cours est un peu aléatoire et dépend beuacoup des années/messages teams. 
 
-# Exemple de Cours :
+## Exemple de Cours :
 Vous suivez les 4 cours de CS : DLP, DL, DLMI, LSD. Vous ajoutez également les cours de ML et NLP à CS. Vous devez donc choisir 2 cours supplémentaires (4 ici pour vérifier les labels "Learning" et "Modelling") :
 
 Geometric Analysis et Point Clouds pour la partie "Modelling"
 Géométrie et Espace de Forme / Théorie des Matrices Aléatoires pour la partie "Learning"
-# Conseil et avis
+## Conseil et avis
 
-## Le travail au MVA/CS
+### Le travail au MVA/CS
 La combinaison CS + MVA est très dense et il est difficile de suivre tous les cours au maximum tout en ayant une vie sociale ou sportive. Il est préférable de choisir des cours "simples" à valider et de se concentrer sur ceux qui vous intéressent le plus. Vous pourriez suivre un maximum de cours différents et les valider, mais il faut se rappeler que c'est votre dernière année d'enseignement et vos derniers cours. Mieux vaut se concentrer sur quelques cours mémorables plutôt que de tenter de tout assimiler sans réelle compréhension.
 
 Le transport est également un facteur important à considérer, car certains cours sont à Paris et d'autres à Paris-Saclay. Il est quasiment impossible de suivre un cours le matin à Paris-Saclay et un autre l'après-midi à Paris. Personnellement, il est préférable de privilégier les cours en présentiel, car j'ai beaucoup plus appris lors de ces cours que lorsqu'ils étaient à Paris.
 
 Prenez un ou deux cours supplémentaires au MVA pour vous assurer de valider tous vos cours et d'obtenir des notes correctes.
-## Avis sur les cours .
+### Avis sur les cours .
+
 
 Voici un retour sur les cours que j'ai suivis (ENS signifie ENSPS, je n'ai suivi aucun cours à l'ENS Paris) :
 
@@ -85,6 +93,6 @@ Remote Sensing (ENS) : Bon cours sur les images satellites, avec des révisions 
 
 Apprentissage pour la Restauration et la Synthèse d’Images S1 : Bon cours, un peu étrange car proche de la génération d'images. J'ai appris quelques concepts intéressants.
 
-# Remarque 
+### Remarque 
 
 Le MVA souhaite que votre stage ait une composante recherche, c'est-à-dire un stage en R&D. Ils apprécient moins les stages en finance.

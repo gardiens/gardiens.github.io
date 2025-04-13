@@ -63,6 +63,7 @@ export default function PrintMarkdown({ text, id }) {
         setContent(file.result);
       });
   }, [text]);
-  return Content;
+  return <div className={style.markdown}>{Content}</div>;
+
 }
 

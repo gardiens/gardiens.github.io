@@ -3,10 +3,12 @@ import { Button, OverlayTrigger, Tooltip, Row, Col } from 'react-bootstrap';
 import PrintMarkdown from './PrintMarkdown';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
-import style from './ProjectTile.module.css';
+import style from './BlogTile.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import copy from 'copy-to-clipboard';
+
+
 
 export default function BlogTile({ id, date, title, abstract, content, tags, stags, image, links, linksDescription}) {
     const [hidden, setHidden] = useState(true);
