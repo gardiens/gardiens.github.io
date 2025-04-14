@@ -12,7 +12,8 @@ import { faBriefcase, faSchool, faProjectDiagram, faUsers, faTrophy } from '@for
 import { Badge } from 'react-bootstrap';
 import style from './Timeline.module.css';
 
-
+import dynamic from 'next/dynamic';
+const ReactMarkdown = dynamic(() => import('react-markdown'), { ssr: false });
 export default function Timeline({ allCareerData }) {
     const types = ['education', 'work', 'project', 'association', 'competition'];
     const icons = [faSchool, faBriefcase, faProjectDiagram, faUsers, faTrophy];
@@ -46,7 +47,7 @@ export default function Timeline({ allCareerData }) {
                                     {tag}
                                 </Badge>
                             ))}
-                            <p>{career.abstract}</p>
+                            <ReactMarkdown>{career.abstract}</ReactMarkdown>
                         </VerticalTimelineElement>
                     ))}
                  
