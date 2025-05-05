@@ -1,5 +1,5 @@
 ---
-period: 2021-2025
+period: 2024-2025
 title: MASTER M2 MVA; Mathématiques, Vision, Apprentissage
 type: education
 company: ENS Paris-Saclay
